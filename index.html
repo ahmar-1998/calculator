@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <input id="result" type="text" class="textarea">
+        <table>
+            <tr>
+                <td ><button class="btn" onclick="getNum('0')">0</button></td>
+                <td > <button class="btn" onclick="clearResult()">C</button></td>
+                <td ><button class="btn" onclick="getResult()">=</button></td>
+                <td ><button class="btn" onclick="getNum('/')">/</button></td>
+            </tr>
+            <tr>
+                <td ><button class="btn" onclick="getNum('7')">7</button></td>
+                <td > <button class="btn" onclick="getNum('8')">8</button></td>
+                <td ><button class="btn" onclick="getNum('9')">9</button></td>
+                <td ><button class="btn" onclick="getNum('*')">x</button></td>
+            </tr>
+            <tr>
+                <td ><button class="btn" onclick="getNum('4')">4</button></td>
+                <td > <button class="btn" onclick="getNum('5')">5</button></td>
+                <td ><button class="btn" onclick="getNum('6')">6</button></td>
+                <td ><button class="btn" onclick="getNum('-')">-</button></td>
+            </tr>
+            <tr>
+                <td ><button class="btn" onclick="getNum('1')">1</button></td>
+                <td > <button class="btn" onclick="getNum('2')">2</button></td>
+                <td ><button class="btn" onclick="getNum('3')">3</button></td>
+                <td ><button class="btn" onclick="getNum('+')">+</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
